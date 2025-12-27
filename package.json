@@ -1,0 +1,13 @@
+{
+  "name": "tps-helper-authserver",
+  "version": "2.2.0",
+  "description": "TPS Helper 认证服务器 - 支持用户注册、团队配额、时间限制、远程版本控制",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.28.0"
+  }
+}
